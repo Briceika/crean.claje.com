@@ -1,0 +1,197 @@
+html {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+.img-fondo {
+    background-color: rgb(243, 12, 120);
+    
+}
+img{
+    width: 100%;
+}
+.velo-negro{
+    background-color: rgb(68, 228, 228);
+}
+.contenedor{
+    max-width: 100rem;
+    margin: auto;
+}
+.header{
+    display: flex;
+    justify-content: center;
+}
+.logo-img{
+    max-width: 20rem;
+margin: 3rem ;
+}
+nav{
+    margin: 3rem 0 8rem 0;
+    background-color: rgb(255, 234, 50);
+    padding: 2rem;
+    justify-content: center;
+    display: flex;
+    gap: 10rem;
+}
+
+a{
+    text-decoration: none;
+}
+nav a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 3rem;
+    color: white;
+    text-transform: uppercase;
+}
+nav a:hover{
+    color: black;
+}
+.nuestros-productos{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 4rem;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+.productos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+.producto{
+    margin: 0.5rem;
+    padding: 0.5rem;
+    background-color: rgb(255, 234, 50);
+}
+.producto-blanco{
+    background-color: white;
+    height: 40rem;
+    object-fit: contain;
+    padding: 1rem;
+}
+.producto-precio,
+.producto-nombre{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+.producto-precio{
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+.contacto:hover{
+    color: black;
+}
+.producto-nombre{
+    font-size: 3rem;
+    font-weight: 800;
+}
+.footer {
+  padding: 40px 0;
+  background-color: #ffffff;
+}
+
+#WhatsApp {
+  position: fixed;
+  bottom: 20px;
+  right:20px;
+  color: black;
+
+}
+
+
+.footer .copyright {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #aaa;
+}
+
+
+.contacto{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    text-align: start;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-decoration: solid;
+}
+
+.nosotros{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10rem;
+    margin-bottom: 20rem;
+}
+.nosotros-texto{
+    color: white;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nosotros-img{
+    color:white;
+    border-radius: 5%;
+    border-width: 5rem;
+    border-color: aqua;
+}
+
+.bloques{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20rem;
+}
+.reciclaje,
+.seguro{
+    width: 20rem;
+    margin-bottom: 2rem;
+    height: 20rem;
+}
+.bloque-titulo{
+    margin: 0;
+}
+.bloque{
+    text-align: center;
+    color: white;
+    font-size: 3rem ;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5rem;
+}
+.bloque-titulo{
+    color: rgb(31, 7, 7);
+    font: 4rem;
+    margin: 3rem;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.Vender{
+    background-color: rgb(23, 214, 23);
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-weight: 800;
+    font: 4rem;
+    margin: 3rem;
+    margin-top: 15px;
+    align-content: center;
+}
+.material{
+    text-align:center;
+    color: rgb(253, 253, 253);
+    align-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-variant-position: inherit;
+    font-size: 3rem;
+    font-weight: 800;
+
+}
+.vender,
+.material{
+    align-content: center;
+    text-align: center;
+}
+.material:hover{
+    color: black;
+}
